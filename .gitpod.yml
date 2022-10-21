@@ -9,5 +9,14 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-preview
-    name: Website
-    description: Website Preview
+    name: L0L1G1tP0d
+    description: loligitp0d
+
+# Image location
+image:
+    file: .gitpod.dockerfile
+    
+# Update OS
+update:
+  - name: Update & Upgrade
+    command: sudo apt update && sudo apt upgrade -y
